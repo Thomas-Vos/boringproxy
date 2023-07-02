@@ -3,7 +3,7 @@ LABEL boringproxy=builder
 
 ARG VERSION
 ARG GOOS="linux"
-ARG GOARCH="amd64"
+ARG GOARCH="arm64"
 ARG BRANCH="master"
 ARG REPO="https://github.com/boringproxy/boringproxy.git"
 ARG ORIGIN='local'
